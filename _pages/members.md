@@ -1,59 +1,79 @@
 ---
+title: Members
 permalink: /members/
-title: "Members"
-layout: single
-
-header:
-  overlay_filter: "0.0"
-  overlay_image: /assets/images/group.jpg
-
-classes:
-  - solid-header-formatting
-
+layout: splash
+classes: wide
+feature_row5:
+  - image_path: assets/images/Setton.jpg
+  - image_path:
+    title: Lori Setton
+    excerpt: Professor Setton's research focuses on the role of mechanical factors in the degeneration and repair of soft tissues of the musculoskeletal system, including the intervertebral disc, articular cartilage and meniscus. In the lab, her work focuses on engineering and evaluating novel materials for tissue regeneration and drug delivery to treat musculoskeletal disease.<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:setton@wustl.edu)&nbsp;&nbsp;
+             [<i class="fas fa-home" aria-hidden="true"></i>](https://engineering.wustl.edu/faculty/Lori-Setton.html)&nbsp;&nbsp;
+             [<i class="fab fa-google" aria-hidden="true"></i>](https://scholar.google.com/citations?hl=en&user=HUxQ1TAAAAAJ&view_op=list_works&sortby=pubdate)&nbsp;&nbsp;
+             [<i class="fas fa-info-circle" aria-hidden="true"></i>](https://orcid.org/0000-0001-5992-4206)&nbsp;&nbsp;
+             [<i class="fab fa-twitter" aria-hidden="true"></i>](https://twitter.com/setton_lab)&nbsp;&nbsp;
+feature_row2:
+  - image_path: assets/images/Lee.png
+    title: "Frank Lee"
+    excerpt: DRG<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:franklee@wustl.edu)&nbsp;&nbsp;
+             [<i class="fas fa-home" aria-hidden="true"></i>](https://neuralhuborg.herokuapp.com)&nbsp;&nbsp;
+             [<i class="fab fa-linkedin" aria-hidden="true"></i>](https://www.linkedin.com/in/frank-lee-5b4799211/)&nbsp;&nbsp;
+             [<i class="fab fa-youtube" aria-hidden="true"></i>](https://www.youtube.com/channel/UCmvP12Rkc7XcBrrt5t0F3FQ)
+  - image_path: assets/images/patil.jpg
+    title: "Deepanjali Patil"
+    excerpt: Intervertebral disc<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:dpatil@wustl.edu)&nbsp;&nbsp;
+             [<i class="fab fa-linkedin" aria-hidden="true"></i>](https://www.linkedin.com/in/deepanjali-gurav-98323a53)
+  - image_path: assets/images/rohanifar.jpg
+    title: "Milad Rohanifar"
+    excerpt: Synovium<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:xiaohong.tan@wustl.edu)&nbsp;&nbsp;
+feature_row:
+  - image_path: assets/images/Jing.jpg
+    title: Liufang Jing
+    excerpt: Research analyst<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:liufangjing@wustl.edu)&nbsp;&nbsp;
+feature_row3:
+  - image_path: assets/images/Davis.jpg
+    title: "Alexandra Davis"
+    excerpt: Synovium<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:alexandradavis@wustl.edu)
+  - image_path: assets/images/Tan.jpeg
+    title: "Xiaohong Tan"
+    excerpt: Intervertebral disc<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:xiaohong.tan@wustl.edu)&nbsp;&nbsp;
+feature_row4:
+  - image_path: assets/images/Jerome.jpeg
+    title: "Mixame Jerome"
+    excerpt: Biomedical engineering major<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:j.mixame@wustl.edu)
+  - image_path: assets/images/Lu.jpg
+    title: "Mike Lu"
+    excerpt: Biochemistry major<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:mikeylu@wustl.edu)
+  - image_path: assets/images/Nommensen.jpg
+    title: "Kayla Nommensen"
+    excerpt: Biomedical engineering major<br>
+             [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:k.nommensen@wustl.edu)
 ---
-# Principal Investigator
+## Principal Investigator
 
-[![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/Setton.jpg)](https://engineering.wustl.edu/faculty/Lori-Setton.html){: .align-left}{: height="100"}
-### [**Lori Setton**](https://www.danforthcenter.org/our-work/principal-investigators/r-keith-slotkin/)  
-Department Chair, [Biomedical Engineering](https://bme.wustl.edu/index.html)  
-Lucy & Stanley Lopata Distinguished Professor of Biomedical Engineering
+{% include feature_row id="feature_row5" %}
 
-<a href="https://scholar.google.com/citations?user=HUxQ1TAAAAAJ&hl=en&oi=ao" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fab fa-google" aria-hidden="true"></i></a>
-<a href="https://orcid.org/0000-0001-5992-4206" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fas fa-info-circle" aria-hidden="true" style="color:#ABC953"></i></a>
-<a title='Email' href="mailto:setton@wustl.edu">
-  <i class="fas fa-envelope fa-fw" style="color:#000000"></i></a>
-<a title="Twitter" href="https://twitter.com/setton_lab">
-  <i class="fab fa-fw fa-twitter" style="color:#00acee"></i></a>
+## Staff
 
-<div class="section">
-  <h2><a id="members">Members</a></h2>
-</div>
+{% include feature_row id="feature_row" %}
 
-<div class="grid__wrapper">
-  {% for author in site.data.authors %}
-      <div class="grid__item">
-        <div style="max-height: 240px" class="archive__item-teaser">
-            <a href="{{author.uri}}">
-              <img src=
-                {% if author.avatar contains "://" %}
-                  "{{ author.avatar }}"
-                {% else %}
-                  "{{ author.avatar | absolute_url }}"
-                {% endif %}
-                 alt="{{ author.name }}">
-            </a>
-        </div>
-          <h2 class="archive__item-title" itemprop="headline">
-            {% if author.name %}
-              <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-            {% else %}
-              <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank">{{ author.name }}</a>
-            {% endif %}
-          </h2>
-          {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-    </div>
-  {% endfor %}
+## Postdoctoral Scholars
 
-</div>
+{% include feature_row id="feature_row2" %}
+
+## Graduate Students
+
+{% include feature_row id="feature_row3" %}
+
+## Undergraduate Students
+
+{% include feature_row id="feature_row4" %}

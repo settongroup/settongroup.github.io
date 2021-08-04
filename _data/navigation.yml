@@ -1,14 +1,18 @@
 # main links
 main:
+  - title: "Setton Lab"
+    url: /
   - title: "Research"
     url: /research/
   - title: "Members"
     url: /members/
   - title: "Publications"
     url: /publications/
-  - title: "Outreach"
-    url: /outreach/
+  - title: "Equipment"
+    url: /equipment/
   - title: "Alumni"
     url: /alumni/
-  - title: "Contact"
-    url: /contact/
+  - title: "Join"
+    url: /join/
+  - title: "Gallery"
+    url: /gallery/

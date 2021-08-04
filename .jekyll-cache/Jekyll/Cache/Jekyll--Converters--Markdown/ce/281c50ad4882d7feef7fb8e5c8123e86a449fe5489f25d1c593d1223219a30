@@ -1,0 +1,37 @@
+I"
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser" style="width:250px;height:220px;">
+            <img src="/assets/images/Setton.jpg" height="100" alt="Mario" />
+            
+          </div>
+        
+
+        <div class="archive__item-body" style="font-size:18px;">
+          
+            <h2 class="archive__item-title">Lori Setton</h2>
+          
+
+          
+            <div class="archive__item-excerpt" style="font-size:16px;">
+              <p><strong>Principal Investigator</strong> <br /> 
+      <em>Research Interests</em>: Microbial Ecology, Ecophysiology, Growth Efficiency <br />
+      <a href="https://scholar.google.com/citations?user=mjkV0pUAAAAJ"><i class="fab fa-google" aria-hidden="true"></i></a>  
+      <a href="https://orcid.org/0000-0001-6183-6037"><i class="fas fa-envelope fa-fw" style="color:#000000"></i></a></p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

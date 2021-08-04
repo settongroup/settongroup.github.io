@@ -2,16 +2,33 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 $primary-color: #a51417;
-$link-color: #a51417;
+$link-color: #3d3d3d;
+$link-color-hover: #a51417;
+$footer-font-color: #fff;
+$header-color: #a51417;
+$font-size-base: 11px;
+@font-face {
+	font-family: "SourceSansPro-Regular";
+	src: url("../assets/fonts/SourceSansProRegular.otf");
+}
+
+
+/* Home, News */
+#newsid p {
+	text-align: left;
+}
+
+#homeidtmp h1 {
+	text-align: center;
+}
+
+#newsid img {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
 
 @charset "utf-8";
 
-@font-face {
-  font-family: "SourceSansPro-Regular";
-  src: url(assets/fonts/SourceSansPro-Regular.otf);
-}
-
-$base-font-family: “Source Sans” !default;
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
