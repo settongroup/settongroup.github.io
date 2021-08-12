@@ -6,10 +6,8 @@ classes: wide
 feature_row5:
   - image_path: assets/images/Setton.jpg
   - image_path:
-    btn_label: "Mentoring philosophy"
-    url: https://wustl.app.box.com/s/mvk5oby0ywecqmrei1hn7wt96smdm56a
     title: Lori Setton
-    excerpt: Professor Setton's research focuses on the role of mechanical factors in the degeneration and repair of soft tissues of the musculoskeletal system, including the intervertebral disc, articular cartilage and meniscus. In the lab, her work focuses on engineering and evaluating novel materials for tissue regeneration and drug delivery to treat musculoskeletal disease.<br>
+    excerpt: Professor Setton's research focuses on the role of mechanical factors in the degeneration and repair of soft tissues of the musculoskeletal system, including the intervertebral disc, articular cartilage and meniscus. In the lab, her work focuses on engineering and evaluating novel materials for tissue regeneration and drug delivery to treat musculoskeletal disease. You can read Dr. Setton's mentoring philosophy [here](https://wustl.app.box.com/s/mvk5oby0ywecqmrei1hn7wt96smdm56a)<br>
              [<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:setton@wustl.edu)&nbsp;&nbsp;
              [<i class="fas fa-home" aria-hidden="true"></i>](https://engineering.wustl.edu/faculty/Lori-Setton.html)&nbsp;&nbsp;
              [<i class="fab fa-google" aria-hidden="true"></i>](https://scholar.google.com/citations?hl=en&user=HUxQ1TAAAAAJ&view_op=list_works&sortby=pubdate)&nbsp;&nbsp;
@@ -63,7 +61,6 @@ feature_row4:
 ## Principal Investigator
 
 {% include feature_row id="feature_row5" %}
-You can read Dr. Setton's mentoring philosophy [here.](https://wustl.app.box.com/s/mvk5oby0ywecqmrei1hn7wt96smdm56a)
 
 ## Staff
 
